@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;other&apos; from expression &apos;&quot;HIGH&quot;&apos;&#x0A;- Original project: &apos;Revision&apos;&#x0A;- Variable name: &apos;other&apos;&#x0A;- Destination method: &apos;Java.JavaEnum.main(...)&apos;&#x0A;- Variable expression: &apos;&quot;HIGH&quot;&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;other&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Java{JavaEnum.java" name="other" replace="true" selection="203 6" stamp="1698742399606" varType="false" version="1.0"/>
+</session>
