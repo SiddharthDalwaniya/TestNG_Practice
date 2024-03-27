@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="0" total="5" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T22:55:48 IST" name="Suite" finished-at="2024-03-27T22:56:21 IST" duration-ms="33178">
+    <groups>
+    </groups>
+    <test started-at="2024-03-27T22:55:48 IST" name="Test" finished-at="2024-03-27T22:56:21 IST" duration-ms="33178">
+      <class name="MainTests.GoogleTest">
+        <test-method is-config="true" signature="Before_test()[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:48 IST" name="Before_test" finished-at="2024-03-27T22:55:48 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_test -->
+        <test-method is-config="true" signature="Before_class()[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:48 IST" name="Before_class" finished-at="2024-03-27T22:55:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_class -->
+        <test-method is-config="true" signature="Before_method(java.lang.reflect.Method)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:48 IST" name="Before_method" finished-at="2024-03-27T22:55:51 IST" duration-ms="2907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MainTests.GoogleTest.sampleTestAmazon() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.reflect.Method)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:48 IST" name="Before_method" finished-at="2024-03-27T22:55:51 IST" duration-ms="2907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MainTests.GoogleTest.sampleTestGoogle(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="sampleTestAmazon()[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:51 IST" name="sampleTestAmazon" finished-at="2024-03-27T22:55:57 IST" duration-ms="6495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestAmazon -->
+        <test-method retried="true" signature="sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:51 IST" name="sampleTestGoogle" finished-at="2024-03-27T22:55:58 IST" duration-ms="6641" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at MainTests.GoogleTest.sampleTestGoogle(GoogleTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestGoogle -->
+        <test-method is-config="true" signature="After_method(org.testng.ITestResult)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:57 IST" name="After_method" finished-at="2024-03-27T22:55:57 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleTestAmazon status=SUCCESS method=GoogleTest.sampleTestAmazon()[pri:0, instance:MainTests.GoogleTest@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="After_method(org.testng.ITestResult)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:58 IST" name="After_method" finished-at="2024-03-27T22:55:58 IST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleTestGoogle status=SKIP method=GoogleTest.sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.reflect.Method)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:58 IST" name="Before_method" finished-at="2024-03-27T22:55:59 IST" duration-ms="1018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MainTests.GoogleTest.sampleTestGoogle(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method retried="true" signature="sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:55:59 IST" name="sampleTestGoogle" finished-at="2024-03-27T22:56:05 IST" duration-ms="6492" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at MainTests.GoogleTest.sampleTestGoogle(GoogleTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestGoogle -->
+        <test-method is-config="true" signature="After_method(org.testng.ITestResult)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:05 IST" name="After_method" finished-at="2024-03-27T22:56:05 IST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleTestGoogle status=SKIP method=GoogleTest.sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.reflect.Method)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:05 IST" name="Before_method" finished-at="2024-03-27T22:56:06 IST" duration-ms="1037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MainTests.GoogleTest.sampleTestGoogle(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method retried="true" signature="sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:06 IST" name="sampleTestGoogle" finished-at="2024-03-27T22:56:13 IST" duration-ms="6528" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at MainTests.GoogleTest.sampleTestGoogle(GoogleTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestGoogle -->
+        <test-method is-config="true" signature="After_method(org.testng.ITestResult)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:13 IST" name="After_method" finished-at="2024-03-27T22:56:13 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleTestGoogle status=SKIP method=GoogleTest.sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="Before_method(java.lang.reflect.Method)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:13 IST" name="Before_method" finished-at="2024-03-27T22:56:14 IST" duration-ms="1053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MainTests.GoogleTest.sampleTestGoogle(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_method -->
+        <test-method signature="sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:14 IST" name="sampleTestGoogle" finished-at="2024-03-27T22:56:20 IST" duration-ms="6506" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at MainTests.GoogleTest.sampleTestGoogle(GoogleTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTestGoogle -->
+        <test-method is-config="true" signature="After_method(org.testng.ITestResult)[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:21 IST" name="After_method" finished-at="2024-03-27T22:56:21 IST" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleTestGoogle status=FAILURE method=GoogleTest.sampleTestGoogle(java.lang.String)[pri:0, instance:MainTests.GoogleTest@6a2b953e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_method -->
+        <test-method is-config="true" signature="After_test()[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:21 IST" name="After_test" finished-at="2024-03-27T22:56:21 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_test -->
+        <test-method is-config="true" signature="After_class()[pri:0, instance:MainTests.GoogleTest@6a2b953e]" started-at="2024-03-27T22:56:21 IST" name="After_class" finished-at="2024-03-27T22:56:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_class -->
+      </class> <!-- MainTests.GoogleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
